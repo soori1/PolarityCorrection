@@ -1,0 +1,26 @@
+Summary Results
+======
+
+Correctly Classified Instances        3075               76.875  %
+Incorrectly Classified Instances       925               23.125  %
+Kappa statistic                          0.5375
+Mean absolute error                      0.2336
+Root mean squared error                  0.443 
+Relative absolute error                 46.7226 %
+Root relative squared error             88.5985 %
+Total Number of Instances             4000     
+
+Accuracy by Class
+======
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.772     0.235      0.763     0.772     0.768      0.854    negative
+                 0.765     0.228      0.774     0.765     0.77       0.854    positive
+Weighted Avg.    0.769     0.231      0.769     0.769     0.769      0.854
+
+Confusion Matrix
+======
+
+    a    b   <-- classified as
+ 1529  451 |    a = negative
+  474 1546 |    b = positive
